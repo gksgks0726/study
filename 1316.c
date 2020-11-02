@@ -1,17 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-int str_chr(char *str)
-{
-    int flag = 0;
-
-    for(int i = 0; i < strlen(str); i++)
-    {
-        if(str[i] == str[i + 1]) flag = 1;
-        else flag = 0;
-    }
-}
-
 int main()
 {
     // 연속적이지않은 같은 단어가 나오면 그룹 단어가 아님.
@@ -28,7 +17,7 @@ int main()
         for(int j = 0; j < 26; j++)
             checker[j] = 0;
         
-        for(int j = 0; j <strlen(word[i]); j++)
+        for(int j = 0; j < strlen(word[i]); j++)
         {
             if(0 < j && word[i][j - 1] == word[i][j])
             {
