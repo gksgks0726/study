@@ -12,7 +12,5 @@ int main ()
 
     printf("%d %d", M , H);
 
-
-
     return 0;
 }

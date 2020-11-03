@@ -26,7 +26,7 @@ int main()
     h = r.p2.y - r.p1.y;
 
     area = w * h;
-    peri = 2 * (w + h);
+    peri = 2 * w + 2 * h;
     
     printf("면적은 %d이고 둘레는 %d입니다.\n", area, peri);
 
