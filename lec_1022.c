@@ -5,10 +5,10 @@ struct point {
     int y;
 };
 
-    struct rect{
+struct rect{
         struct point p1;
         struct point p2;
-    };
+};
 
 int main()
 {
