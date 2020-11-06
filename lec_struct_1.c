@@ -13,7 +13,7 @@ int main () {
     printf("%d %d\n", p2.x, p2.y);
 
     p2 = p1;
-    
+
     printf("%d %d\n", p1.x, p1.y);
     printf("%d %d\n", p2.x, p2.y);
 
